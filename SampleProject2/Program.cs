@@ -1,6 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Microsoft.AspNetCore.Routing;
 using SampleProject2;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -28,6 +28,7 @@
 
                 db.MyRequests.Add(req);
                 await db.SaveChangesAsync();
+                await context.Response.WriteAsync("1 record added");
             }
 
             await _next(context);
